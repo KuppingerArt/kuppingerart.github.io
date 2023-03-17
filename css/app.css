@@ -2802,7 +2802,7 @@ body {
 
 body {
   
-  color: #374c5d;
+  color: #fff;
   padding: 0;
   margin: 0;
   font-family: "Lato", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2855,8 +2855,10 @@ img {
   vertical-align: middle; }
 
 textarea {
-  height: auto;
-  min-height: 50px; }
+    height: auto;
+    min-height: 50px;
+    width: 100%;
+}
 
 select {
   width: 100%; }
