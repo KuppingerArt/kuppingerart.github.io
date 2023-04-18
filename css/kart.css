@@ -67,7 +67,7 @@ body {
 .gallery img {
   max-width: 100%;
   border-radius: 2px;
-  box-shadow: 0 0 16px #333;
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.35);
   transition: all 1.5s ease;
 }
 .gallery img:hover {
