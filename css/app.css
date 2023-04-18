@@ -2944,7 +2944,9 @@ p {
   line-height: 1.6;
   margin-bottom: 1.25rem;
   text-rendering: optimizeLegibility; }
-
+.ex_container p {
+    text-align: center;
+}
 @media only screen and (min-width: 40.063em) {
   p {
     font-size: 1.125rem; } }
