@@ -10,7 +10,7 @@ header {
     left: 0;
     z-index: 1000;
     width: 100%;
-    background: #dfdfdf;
+    background: #ededed;
 }
 .inner {
     position: relative;
@@ -35,9 +35,10 @@ header {
 .frontLinks img {
     max-height: 400px;
 }
-.frontLinks ul {
-    margin: auto;
+ul.frontLinks  {
+    margin:0 auto;
     text-align: center;
+    padding:0;
 }
 /* Gallery */
 body {
