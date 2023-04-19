@@ -10,6 +10,7 @@ header {
     left: 0;
     z-index: 1000;
     width: 100%;
+    background: #dfdfdf;
 }
 .inner {
     position: relative;
@@ -31,7 +32,13 @@ header {
 .frontLinks li {
     display: inline-block;
 }
-
+.frontLinks img {
+    max-height: 400px;
+}
+.frontLinks ul {
+    margin: auto;
+    text-align: center;
+}
 /* Gallery */
 body {
   background-color: #f4f4f4;
