@@ -25,6 +25,13 @@ header {
   max-width: 12rem;
   padding: 1em;
 }
+.linkList {
+    text-align: center;
+}
+.frontLinks li {
+    display: inline-block;
+}
+
 /* Gallery */
 body {
   background-color: #f4f4f4;
