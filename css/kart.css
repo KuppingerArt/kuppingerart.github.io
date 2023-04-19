@@ -105,6 +105,18 @@ body {
 }
 .fcf-body{max-width:900px; margin:auto;}
 .fcf-body label, .fcf-body input {width: 100%;}
+@media (max-width: 1080px) {
+  .frontLinks img {
+    max-height: 300px;
+  }
+}
+@media (max-width: 850px) {
+.frontLinks img {
+    max-height: auto;
+    max-width: 425px;
+    padding: 0 0 18px;
+  }
+}
 @media (max-width: 600px) {
   .gallery {
     grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
