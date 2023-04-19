@@ -3707,23 +3707,16 @@ code {
     .color-overlay {
       min-height: 900px; } }
 
-.logo {
-  padding: 100px 0 0 0; }
+
   @media only screen and (min-width: 64.063em) {
-    .logo {
-      padding: 100px 0 120px 0; } }
+
   @media only screen and (max-width: 40em) {
-    .logo img {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      max-width: 100px; } }
+
   @media only screen and (min-width: 40.063em) and (max-width: 64em) {
     .logo {
       text-align: center;
       padding: 140px 0 40px 0; }
-      .logo img {
-        max-width: 200px; } }
+
 
 .header-title,
 .header-subtitle,
