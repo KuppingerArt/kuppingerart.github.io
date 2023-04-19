@@ -142,9 +142,9 @@ button#fcf-button {
 @media (max-width: 780px) {
   .frontLinks li {
     display: block;
-}
+  }
   .frontLinks img {
-    max-height: auto;
+    max-height: unset;
     min-width: 425px;
     padding: 0 0 20px;
   }
