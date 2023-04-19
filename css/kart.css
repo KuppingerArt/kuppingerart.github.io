@@ -139,7 +139,7 @@ button#fcf-button {
   }
   .frontLinks img {
     max-height: unset;
-    min-width: 425px;
+    min-width: 100%;
     padding: 0 0 20px;
   }
 }
