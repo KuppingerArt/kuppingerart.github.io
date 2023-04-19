@@ -125,7 +125,7 @@ button#fcf-button {
     border: 1px solid #c35c02;
     border-radius: 3px;
     color: #fff;
-}
+} 
 @media (max-width: 1080px) {
   .frontLinks img {
     max-height: 300px;
