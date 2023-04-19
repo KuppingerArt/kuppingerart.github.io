@@ -2859,6 +2859,7 @@ textarea {
     min-height: 50px;
     width: 100%;
     margin: 10px 0 20px;
+    padding:12px;
 }
 
 select {

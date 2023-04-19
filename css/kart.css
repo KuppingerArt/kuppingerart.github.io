@@ -115,9 +115,8 @@ body {
 }
 .fcf-body input {
     width: 100%;
-    padding: 11px 0;
+    padding: 12px;
     margin: 10px 0 20px;
-    border-color: .fcf-body { max-width: 650px;margin: auto;};
     border: 1px solid #707072;
 }
 button#fcf-button {
