@@ -56,7 +56,7 @@ body {
   z-index: 1;
 }
 .full .content {
-  background-color: rgba(0,0,0,0.75) !important;
+  background-color: rgba(237,237,237,0.95) !important;
   height: 100%;
   width: 100%;
   display: grid;
