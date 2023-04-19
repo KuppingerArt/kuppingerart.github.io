@@ -2858,6 +2858,7 @@ textarea {
     height: auto;
     min-height: 50px;
     width: 100%;
+    margin: 10px 0 20px;
 }
 
 select {
@@ -3902,8 +3903,10 @@ div.call-to-action {
     color: #707070;
     padding: 10px 15px;
 }
-      .nav-primary li a:hover {
-        background-color: #12161b; }
+.nav-primary li a:hover {
+    background-color: #ed9445;
+    color: #fff;
+}
 
 @media only screen and (min-width: 64.063em) {
   [data-position="top"] .nav-primary {

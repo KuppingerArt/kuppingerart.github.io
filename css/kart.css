@@ -103,8 +103,29 @@ body {
 .gallery .gallery-item:hover {
   transform: scale(1.025);
 }
-.fcf-body{max-width:900px; margin:auto;}
-.fcf-body label, .fcf-body input {width: 100%;}
+.fcf-body {
+    max-width: 650px;
+    margin: auto;
+}
+.fcf-body label, .fcf-body input {
+    width: 100%;
+    padding: 11px 0;
+    margin: 10px 0 20px;
+}
+.fcf-body input {
+    width: 100%;
+    padding: 11px 0;
+    margin: 10px 0 20px;
+    border-color: .fcf-body { max-width: 650px;margin: auto;};
+    border: 1px solid #707072;
+}
+button#fcf-button {
+    padding: 12px;
+    background: #ed9445;
+    border: 1px solid #c35c02;
+    border-radius: 3px;
+    color: #fff;
+}
 @media (max-width: 1080px) {
   .frontLinks img {
     max-height: 300px;
