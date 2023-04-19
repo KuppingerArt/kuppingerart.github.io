@@ -127,18 +127,13 @@ button#fcf-button {
     border-radius: 3px;
     color: #fff;
 } 
-@media (max-width: 1080px) {
+
+@media (max-width: 1092px) {
   .frontLinks img {
-    max-height: 300px;
+    max-height: 290px;
   }
 }
-@media (max-width: 850px) {
-.frontLinks img {
-    max-height: auto;
-    max-width: 425px;
-    padding: 0 0 18px;
-  }
-}
+
 @media (max-width: 780px) {
   .frontLinks li {
     display: block;
