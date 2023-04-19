@@ -21,7 +21,7 @@ header {
     padding-right: 20px;
 }
 .inner a{text-align: center;}
-.inner.logo {
+.inner.logo img{
   max-width: 12rem;
   padding: 1em;
 }
