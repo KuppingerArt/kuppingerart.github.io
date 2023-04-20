@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"articleContent"
+			],
+			[
+				"la",
+				"last-of-type"
+			],
+			[
+				"fir",
+				"first-of-type"
+			],
+			[
+				"firs",
+				"first-of-type"
+			],
+			[
+				"rnCell",
+				"rnCell_3"
+			],
+			[
+				"fad",
+				"fadeIn"
+			],
+			[
+				"l",
+				"last-of-type"
+			],
+			[
+				"vehi",
+				"vehicle"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tr",
+				"translateY()"
+			],
+			[
+				"padding-in",
+				"padding-inline-start"
+			],
+			[
+				"r",
+				"resetJSig"
+			],
+			[
+				"s",
+				"selectedIndex"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"f",
+				"first-of-type"
+			],
+			[
+				"las",
+				"last-of-type"
+			],
+			[
+				"cel",
+				"cellpadding"
+			],
+			[
+				"near",
+				"nearby"
+			],
+			[
+				"i",
+				"inline"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"vi",
+				"visually-hidden"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"display",
+				"displayCity"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"mfp",
+				"mfp-content"
+			],
+			[
+				"wi",
+				"wistiaVideoId"
+			],
+			[
+				"load",
+				"loadedWistiaVideos"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pa",
+				"partner-experience"
+			],
+			[
+				"life",
+				"life-storage-solutions"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"bor",
+				"border-bottom\tproperty"
+			],
+			[
+				"border-",
+				"border-bottom\tproperty"
+			],
+			[
+				"padd",
+				"padding-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"career",
+				"career-opportunities"
+			],
+			[
+				"column",
+				"column-gap\tproperty"
+			],
+			[
+				"min",
+				"min-width\tproperty"
+			],
+			[
+				"line",
+				"line-height\tproperty"
+			],
+			[
+				"lin",
+				"line-height\tproperty"
+			],
+			[
+				"ani",
+				"animateTo"
+			],
+			[
+				"com",
+				"commercialacoustics"
+			],
+			[
+				"n",
+				"none\tmax-width"
+			],
+			[
+				"action",
+				"action-button"
+			],
+			[
+				"col",
+				"column-count\tproperty"
+			],
+			[
+				"background",
+				"background-size\tproperty"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"wd",
+				"width\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"align",
+				"align-items\tproperty"
+			],
+			[
+				"COL",
+				"column-gap\tproperty"
+			],
+			[
+				"colum",
+				"column-count\tproperty"
+			],
+			[
+				"gallery",
+				"gallery-item"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"bac",
+				"background-position\tproperty"
+			],
+			[
+				"max-",
+				"max-width\tproperty"
+			],
+			[
+				"colu",
+				"column-count\tproperty"
+			],
+			[
+				"c",
+				"color\tproperty"
+			],
+			[
+				"clo",
+				"closest"
+			],
+			[
+				"comm",
+				"commercial"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"icon-map",
+				"icon-map-marker-1"
+			],
+			[
+				"bo",
+				"border-radius\tproperty"
+			],
+			[
+				"font-st",
+				"font-style\tproperty"
+			],
+			[
+				"space",
+				"spaceDiagram"
+			],
+			[
+				"text-dec",
+				"text-decoration\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"border-t",
+				"border-top\tproperty"
+			],
+			[
+				"tex-t",
+				"text-overflow\tproperty"
+			],
+			[
+				"vid",
+				"vid10x30"
+			],
+			[
+				"user",
+				"user-is-tabbing"
+			],
+			[
+				"font-",
+				"font-weight\tproperty"
+			],
+			[
+				"min-",
+				"min-height\tproperty"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"backgrou",
+				"background\tproperty"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"vis",
+				"visuallyHidden"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"a",
+				"auto\twidth"
+			],
+			[
+				"commercial",
+				"commercial-storage"
+			],
+			[
+				"panel",
+				"panelHidden"
+			],
+			[
+				"margin-",
+				"margin-bottom\tproperty"
+			],
+			[
+				"rep",
+				"repeat-x\tbackground-repeat"
+			],
+			[
+				"re",
+				"repeat-x\tbackground-repeat"
+			],
+			[
+				"bord",
+				"border-right\tproperty"
+			],
+			[
+				"part",
+				"participate"
+			],
+			[
+				"u",
+				"url()\tbackground"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"over",
+				"overflow\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"contac",
+				"contactModal"
+			],
+			[
+				"fl",
+				"float\tproperty"
+			],
+			[
+				"mari",
+				"margin-top\tproperty"
+			],
+			[
+				"border-r",
+				"border-right\tproperty"
+			],
+			[
+				"icon",
+				"icon-chevron-down"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"icon-care",
+				"icon-caret-right"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"box-s",
+				"box-shadow"
+			],
+			[
+				"t",
+				"title\tAttr"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"border-rc",
+				"border-color"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"check",
+				"checkboxes"
+			],
+			[
+				"lastM",
+				"lastName"
+			],
+			[
+				"sans",
+				"sans-serif"
+			],
+			[
+				"text-de",
+				"text-decoration"
+			],
+			[
+				"lit",
+				"list-style"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"prev",
+				"preventDefault"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"copy",
+				"Copyright"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"spe",
+				"unitSpecial"
+			],
+			[
+				"Sans",
+				"sans-serif"
+			],
+			[
+				"lsi",
+				"list-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"HTMLPrettify"
+			],
+			[
+				"inst",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"co",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"color",
+				"Colorsublime: Install Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contro",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 704.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/contact-form-process.html",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/index.html",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/gallery.html",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/form.html",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/exhibition.html",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/commission.html",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/css/kart.css",
+		"/Users/gregkuppinger/KArt/css/kart.css",
+		"/Users/gregkuppinger/KArt/kuppingerart.github.io/sand.html",
+		"/Users/gregkuppinger/Desktop/logo.svg",
+		"/Users/gregkuppinger/Desktop/Airbnb/Logo/SkiShack_blk_wht.svg",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/application.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/auction/index.cfm",
+		"/private/var/folders/61/7bdbyzy146n_rc0kgwp7246r0000gn/T/fz3temp-2/styles.css",
+		"/private/var/folders/61/7bdbyzy146n_rc0kgwp7246r0000gn/T/fz3temp-2/styles.min.css",
+		"/private/var/folders/61/7bdbyzy146n_rc0kgwp7246r0000gn/T/fz3temp-2/index.php",
+		"/private/var/folders/61/7bdbyzy146n_rc0kgwp7246r0000gn/T/fz3temp-2/index-is.php",
+		"/private/var/folders/61/7bdbyzy146n_rc0kgwp7246r0000gn/T/fz3temp-2/indexis.php",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/reservation/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/referral/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/login/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/rent-now/invite/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/inc/act_search.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/storage-units/storage-unit-size-guide/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/alternateReservation.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/inc/ini_alternate-reservation.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/reservation/alternate/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/homeoffice.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/choosespace/index.cfm",
+		"/Applications/Sites/Life Dev_backup/css/reservation.css",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/css/reservation.css",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/rentNowAPI.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/rentNow.cfc",
+		"/Applications/Sites/Life Dev_backup/reservation/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/rent-now/index.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/css/front.css",
+		"/Users/gregkuppinger/Documents/GitHub/kuppingerart.github.io/css/app.css",
+		"/Users/gregkuppinger/Desktop/outputTemplate.html",
+		"/Users/gregkuppinger/Documents/GitHub/kuppingerart.github.io/css/kart.css",
+		"/Applications/Sites/Life Dev_backup/assets/img/icons/icons.svg",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/assets/img/icons/icons.svg",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/rent-now/email_template_text_info.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/reservation/email_template_standy_reservation_text.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/reservation/email_template_standby_reservation.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/reservation/email_template_text_info.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/rent-now/email_template_new_info.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/rent-now/email_template_standby_reservation.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/rent-now/email_template_html_store.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/reservation/email_template_new_receipt.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/inc/dsp_reserveLeft.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/locations.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/spaces.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/inc/qry_space.cfm",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/cfc/featureFlags.cfc",
+		"/Users/gregkuppinger/Desktop/cleanUp/emailTest.html",
+		"/Users/gregkuppinger/Desktop/error.html",
+		"/Users/gregkuppinger/repos/LifeStorageColdFusion/css/base.css",
+		"/Applications/Sites/Life Dev/css/reservation.css",
+		"/Users/gregkuppinger/Desktop/RentNow.css",
+		"/Applications/Sites/Life Dev/rent-now/index.cfm",
+		"/Applications/Sites/Life Dev/cfc/locations.cfc",
+		"/Users/gregkuppinger/repos/LifeStorageCF/LifeStorageCF/application.cfc",
+		"/Applications/Sites/Life Live/rent-now/index.cfm",
+		"/Applications/Sites/Life Dev/cfc/property.cfc",
+		"/Applications/Sites/Life Dev/css/base.css",
+		"/Applications/Sites/Life Dev/store/index.cfm",
+		"/Users/gregkuppinger/Desktop/RentNowSideBarAB.cfml",
+		"/Users/gregkuppinger/repos/LifeStorageCF/LifeStorageCF/index.cfm",
+		"/usr/local/etc/httpd/extra/httpd-vhosts.conf",
+		"/Applications/Sites/Life Dev/rent-now/index_test.cfm",
+		"/Applications/Sites/Infocenter/Marketing/assets/js/rentNowCodes.js",
+		"/Applications/Sites/Infocenter/Marketing/rentNowCodes.cfm",
+		"/Applications/Sites/Life Live/rent-now/email_template_new_info.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_new_info.cfm",
+		"/Applications/Sites/Life Dev/application.cfc",
+		"/Applications/Sites/Life Dev/cfc/images.cfc",
+		"/Applications/Sites/Life Dev/utility/wctest/livechat.cfm",
+		"/Applications/Sites/Life Dev/city/index.cfm",
+		"/Applications/Sites/Life Dev/js/ub.js",
+		"/Users/gregkuppinger/Desktop/tooltip/demo1.html",
+		"/Users/gregkuppinger/Desktop/tooltip/themes/1/tooltip.css",
+		"/Applications/Sites/Life Dev/company/career-opportunities/career-ops/index.cfm",
+		"/Applications/Sites/Life Dev/company/career-opportunities/culture/index.cfm",
+		"/Applications/Sites/Life Dev/company/career-opportunities/index.cfm",
+		"/Applications/Sites/Life Dev/storage-units/index.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_advance_rental_cancelled.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_new_receipt.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_advance_rental_confirmation.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_advance_rental_failure_text.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_advance_rental_confirmation_text.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_advance_rental_failure.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_text_info.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_text_receipt.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_advance_rental_cancelled_text.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_html_store.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_template_new_account.cfm",
+		"/Applications/Sites/Life Dev/rent-now/rentnow-new-account-email.cfm",
+		"/Applications/Sites/Life Dev/rent-now/email_store_rental_confirmation.cfm",
+		"/Applications/Sites/Life Dev/specialoffer/business/index.cfm",
+		"/Applications/Sites/Life Dev/css/article.css",
+		"/Users/gregkuppinger/Desktop/lock.svg",
+		"/Applications/Sites/Life Dev/assets/img/icons/icons.svg",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/index.cfm",
+		"/Applications/Sites/Life Dev/index.cfm",
+		"/Applications/Sites/Life Dev/reservation/index.cfm",
+		"/Applications/Sites/Life Live/privacy-policy/index.cfm",
+		"/Applications/Sites/Life Dev/privacy-policy/index.cfm",
+		"/Applications/Sites/Life Dev/storage-unit-costs/index.html",
+		"/Applications/Sites/Life Dev/company/life-storage-solutions/contact/index.cfm",
+		"/Applications/Sites/Life Dev/storage-facilities/drive-up-storage/index.cfm",
+		"/Applications/Sites/Life Dev/inc/head.cfm",
+		"/Applications/Sites/Life Dev/company/life-storage-solutions/bridge-loan/index.cfm",
+		"/Applications/Sites/Life Dev/company/life-storage-solutions/partner-experience/index.cfm",
+		"/Applications/Sites/Life Dev/es/index.cfm",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/store/index.cfm",
+		"/Applications/Sites/Life Dev/company/index.cfm",
+		"/Applications/Sites/Life Dev/sitemap/baton-rouge-8009/index.cfm",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/office-suites-detail/index.cfm",
+		"/Applications/Sites/Life Dev/inc/footer.cfm",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/national-accounts/index.cfm",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/office-warehouse/index.cfm",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/new/index.cfm",
+		"/Applications/Sites/Life Dev/css/search.css",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/national-accounts/index-copy.cfm",
+		"/Applications/Sites/Life Dev/storage-units/commercial-storage/national-sales/index.cfm",
+		"/Applications/Sites/Life Live/assets/img/icons/icons.svg",
+		"/Applications/Sites/Life Live/css/article.css"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sand.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 303.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
