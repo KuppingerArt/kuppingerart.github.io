@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body{margin: 0;}
+body{margin: 0; background-color: #fdfdfd;}
 header {
     border-bottom: 1px solid #707070;
     height: 60px;
@@ -41,9 +41,6 @@ header {
     padding:0;
 }
 /* Gallery */
-body {
-  background-color: #fdfdfd;
-}
 .fcf-body {
     max-width: 650px;
     margin: auto;
@@ -110,9 +107,6 @@ button#fcf-button {
   transition: transform 300ms ease;
   transition: all 0.5s ease;
   cursor: pointer;
-  display: flex;
-  grid-auto-rows: 1fr;
-  flex-flow: column nowrap;
 }
 .gallery .gallery-item:hover {
   transform: scale(1.025);
