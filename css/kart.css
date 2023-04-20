@@ -154,80 +154,64 @@ button#fcf-button {
 @-moz-keyframes zoomin {
   0% {
     max-width: 10%;
-    transform: rotate(-30deg);
     filter: blur(4px);
   }
   30% {
     max-width: 40%;
     filter: blur(4px);
-    transform: rotate(-80deg);
   }
   70% {
     max-width: 70%;
-    transform: rotate(45deg);
   }
   100% {
     max-width: 100%;
-    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes zoomin {
   0% {
     max-width: 10%;
-    transform: rotate(-30deg);
     filter: blur(4px);
   }
   30% {
     max-width: 40%;
     filter: blur(4px);
-    transform: rotate(-80deg);
   }
   70% {
     max-width: 70%;
-    transform: rotate(45deg);
   }
   100% {
     max-width: 100%;
-    transform: rotate(0deg);
   }
 }
 @-o-keyframes zoomin {
   0% {
     max-width: 10%;
-    transform: rotate(-30deg);
     filter: blur(4px);
   }
   30% {
     max-width: 40%;
     filter: blur(4px);
-    transform: rotate(-80deg);
   }
   70% {
     max-width: 70%;
-    transform: rotate(45deg);
   }
   100% {
     max-width: 100%;
-    transform: rotate(0deg);
   }
 }
 @keyframes zoomin {
   0% {
     max-width: 10%;
-    transform: rotate(-30deg);
     filter: blur(4px);
   }
   30% {
     max-width: 40%;
     filter: blur(4px);
-    transform: rotate(-80deg);
   }
   70% {
     max-width: 70%;
-    transform: rotate(45deg);
   }
   100% {
     max-width: 100%;
-    transform: rotate(0deg);
   }
 }
