@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body{margin: 0;}
+body{margin: 0; background-color: #fdfdfd;}
 header {
     border-bottom: 1px solid #707070;
     height: 60px;
@@ -41,31 +41,17 @@ header {
     padding:0;
 }
 /* Gallery */
-body {
-  background-color: #fdfdfd;
+.hello {
+  opacity: 1 !important;
 }
-.fcf-body {
-    max-width: 650px;
-    margin: auto;
+.full {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
-.fcf-body label, .fcf-body input {
-    width: 100%;
-    padding: 11px 0;
-    margin: 10px 0 20px;
-}
-.fcf-body input {
-    width: 100%;
-    padding: 12px;
-    margin: 10px 0 20px;
-    border: 1px solid #707072;
-}
-button#fcf-button {
-    padding: 12px;
-    background: #ed9445;
-    border: 1px solid #c35c02;
-    border-radius: 3px;
-    color: #fff;
-} 
 .full .content {
   background-color: rgba(0,0,0,0.75) !important;
   height: 100%;
@@ -73,16 +59,16 @@ button#fcf-button {
   display: grid;
 }
 .full .content img {
-    left: 50%;
-    transform: translate3d(0, 0, 0);
-    animation: zoomin 1s ease;
-    max-width: 100%;
-    max-height: calc(100vh - 104px);
-    margin: 75px auto 0;
+  left: 50%;
+  transform: translate3d(0, 0, 0);
+  animation: zoomin 1s ease;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
-/*.byebye {
+.byebye {
   opacity: 0;
-}*/
+}
 .byebye:hover {
   transform: scale(0.2) !important;
 }
@@ -114,6 +100,94 @@ button#fcf-button {
 .gallery .gallery-item:hover {
   transform: scale(1.025);
 }
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  }
+}
+@-moz-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@-o-keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+@keyframes zoomin {
+  0% {
+    max-width: 50%;
+    transform: rotate(-30deg);
+    filter: blur(4px);
+  }
+  30% {
+    filter: blur(4px);
+    transform: rotate(-80deg);
+  }
+  70% {
+    max-width: 50%;
+    transform: rotate(45deg);
+  }
+  100% {
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+
+
 @media (max-width: 1092px) {
   .frontLinks img {
     max-height: 290px;
@@ -141,81 +215,3 @@ button#fcf-button {
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
   }
 }
-@-moz-keyframes zoomin {
-  0% {
-    max-width: 50%;
-
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-
-  }
-  70% {
-    max-width: 50%;
-
-  }
-  100% {
-    max-width: 100%;
-
-  }
-}
-@-webkit-keyframes zoomin {
-  0% {
-    max-width: 10%;
-
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-max-width: 30%;
-  }
-  70% {
-    max-width: 70%;
-
-  }
-  100% {
-    max-width: 100%;
-
-  }
-}
-@-o-keyframes zoomin {
-  0% {
-    max-width: 10%;
-    
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    max-width: 30%;
-  }
-  70% {
-    max-width: 70%;
-   
-  }
-  100% {
-    max-width: 100%;
-  
-  }
-}
-@keyframes zoomin {
-  0% {
-    max-width: 10%;
-
-    filter: blur(4px);
-  }
-  30% {
-    max-width: 30%;
-    filter: blur(4px);
-  
-  }
-  70% {
-    max-width: 70%;
-
-  }
-  100% {
-    max-width: 100%;
-
-  }
-}
-
