@@ -5,13 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- TemplateBeginEditable name="doctitle" -->
-    <title>Kuppinger Art</title>
-    <!-- TemplateEndEditable -->
-    <!-- TemplateBeginEditable name="head" -->
-    <!-- TemplateEndEditable -->
+    <title>Kuppinger Art | Paintings on Sandpaper</title>
     <link rel='stylesheet' href='../css/kart.css'>
-    <!--<link rel='stylesheet' href='../css/slide.css'>-->
     <link rel='stylesheet' href='../css/app.css'>
 </head>
 
@@ -57,7 +52,7 @@
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="/images/sand/JoJo.jpg" alt="Jojo"/>
+            <div class="content"><img src="/images/sand/JoJo.jpg" alt="Jojo" />
                 <h3>Jojo 36"x 58"</h3>
             </div>
         </div>
@@ -67,7 +62,7 @@
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="/images/sand/Cassondra.jpg" alt="Cassondra"/>
+            <div class="content"><img src="/images/sand/Cassondra.jpg" alt="Cassondra" />
                 <h3>Cassondra 36"x 58"</h3>
             </div>
         </div>
@@ -132,43 +127,39 @@
             </div>
         </div>
     </div>
-    <!---<script src="js/app.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/gallery.js"></script>--->
-<script>
-var gallery = document.querySelector('#gallery');
-var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
-var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
-var resizeAll = function () {
-    var altura = getVal(gallery, 'grid-auto-rows');
-    var gap = getVal(gallery, 'grid-row-gap');
-    gallery.querySelectorAll('.gallery-item').forEach(function (item) {
-        var el = item;
-        el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
-    });
-};
-gallery.querySelectorAll('img').forEach(function (item) {
-    item.classList.add('byebye');
-    if (item.complete) {
-        console.log(item.src);
-    }
-    else {
-        item.addEventListener('load', function () {
-            var altura = getVal(gallery, 'grid-auto-rows');
-            var gap = getVal(gallery, 'grid-row-gap');
-            var gitem = item.parentElement.parentElement;
-            gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
-            item.classList.remove('byebye');
+    <script>
+    var gallery = document.querySelector('#gallery');
+    var getVal = function(elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+    var getHeight = function(item) { return item.querySelector('.content').getBoundingClientRect().height; };
+    var resizeAll = function() {
+        var altura = getVal(gallery, 'grid-auto-rows');
+        var gap = getVal(gallery, 'grid-row-gap');
+        gallery.querySelectorAll('.gallery-item').forEach(function(item) {
+            var el = item;
+            el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
         });
-    }
-});
-window.addEventListener('resize', resizeAll);
-gallery.querySelectorAll('.gallery-item').forEach(function (item) {
-    item.addEventListener('click', function () {        
-        item.classList.toggle('full');        
+    };
+    gallery.querySelectorAll('img').forEach(function(item) {
+        item.classList.add('bye');
+        if (item.complete) {
+            console.log(item.src);
+        } else {
+            item.addEventListener('load', function() {
+                var altura = getVal(gallery, 'grid-auto-rows');
+                var gap = getVal(gallery, 'grid-row-gap');
+                var gitem = item.parentElement.parentElement;
+                gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+                item.classList.remove('byebye');
+            });
+        }
     });
-});
-</script>
+    window.addEventListener('resize', resizeAll);
+    gallery.querySelectorAll('.gallery-item').forEach(function(item) {
+        item.addEventListener('click', function() {
+            item.classList.toggle('full');
+        });
+    });
+    </script>
 </body>
 
 </html>
