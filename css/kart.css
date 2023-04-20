@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body{margin: 0; background-color: #fdfdfd;}
+body{margin: 0;}
 header {
     border-bottom: 1px solid #707070;
     height: 60px;
@@ -41,6 +41,9 @@ header {
     padding:0;
 }
 /* Gallery */
+body {
+  background-color: #fdfdfd;
+}
 .fcf-body {
     max-width: 650px;
     margin: auto;
@@ -77,18 +80,18 @@ button#fcf-button {
     max-height: calc(100vh - 104px);
     margin: 75px auto 0;
 }
-.byebye {
+/*.byebye {
   opacity: 0;
-}
+}*/
 .byebye:hover {
   transform: scale(0.2) !important;
 }
 .gallery {
-    display: grid;
-    grid-column-gap: 1rem;
-    grid-row-gap: 8px;
-    grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
-    grid-gap: 1.5rem;
+  display: grid;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: 8px;
 }
 .gallery img {
   max-width: 100%;
