@@ -102,28 +102,22 @@ header {
 .gallery .gallery-item:hover {
   transform: scale(1.025);
 }*/
-#gallery{
-  width: 100%;
-  padding-bottom:30px;
-}
-.masonry .item,
-.masonry .grid-sizer {
-  width:  20%;
-}
-.gutter-sizer { width: 0px; }
+// Style next prev icons
 
-.masonry .item img  {
-  width: 100%;
-  padding: 10px;
-  border:3px solid #eeeeee;
-  background-color: #ffffff;  
-  opacity: 0.9;
-  filter: alpha(opacity=90); /* For IE8 and earlier */ 
+.lg-toolbar-next:before {
+  content: "\e094";
 }
-.masonry .item img:hover{
-  opacity: 1;
-  filter: alpha(opacity=100); /* For IE8 and earlier */   
+.lg-toolbar-prev:before {
+  content: "\e095";
 }
+
+/** Below CSS is completely optional **/
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+}
+
 .fcf-body {
     max-width: 650px;
     margin: auto;
