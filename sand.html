@@ -139,6 +139,9 @@
             el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
         });
     };
+    $grid.imagesLoaded().progress( function() {
+        $grid.masonry('layout');
+    });
     gallery.querySelectorAll('img').forEach(function(item) {
         item.classList.add('bye');
         if (item.complete) {
