@@ -40,107 +40,126 @@
                 </a>
             </div>
     </header>
-<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-        <div class="grid-item">
+    <div class="gallery" id="gallery">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Ezekiels_Vision.jpg" alt="Ezekiels Vision " />
                 <h3>Ezekiels Vision 36" x 60"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Ezekiels_Calling.jpg" alt="Ezekiels Calling" />
                 <h3>Ezekiels Calling 36" x 58"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/JoJo.jpg" alt="Jojo" />
                 <h3>Jojo 36"x 58"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/FloweredHat.jpg" alt="Self Portrait with Flowered Hat" />
                 <h3>Self Portrait with Flowered Hat 36"x 58"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Cassondra.jpg" alt="Cassondra" />
                 <h3>Cassondra 36"x 58"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Catabolic_Consciousness.jpg" alt="Catabolic Consciousness" />
                 <h3>Catabolic Consciousness 36"x 58"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Dark_center.jpg" alt="Dark Center of the Universe" />
                 <h3>Dark Center of the Universe</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/J.jpg" alt="J" />
                 <h3>J 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/GirlwithTatoo.jpg" alt="Girl with a Tatoo" />
                 <h3>Girl with a Tatoo 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Cassondra2.jpg" alt="Cassondra II" />
                 <h3>Cassondra II 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Blue.jpg" alt="Blue" />
                 <h3>Blue 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Self1.jpg" alt="Self" />
                 <h3>Self 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Rome1.jpg" alt="Rome I" />
                 <h3>Rome I 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Rome2.jpg" alt="Rome II" />
                 <h3>Rome II 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Pilot.jpg" alt="Pilot" />
                 <h3>Pilot 8.5" x 11"</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Jill.jpg" alt="Jill" />
                 <h3>Jill</h3>
             </div>
         </div>
-        <div class="grid-item">
+        <div class="gallery-item">
             <div class="content"><img src="/images/sand/Basquiat.jpg" alt="Basquiat" />
                 <h3>Basquiat</h3>
             </div>
         </div>
     </div>
     <script>
-// vanilla JS
-// init with element
-var grid = document.querySelector('.grid');
-var msnry = new Masonry( grid, {
-  // options...
-  itemSelector: '.grid-item',
-  columnWidth: 200
-});
+    var gallery = document.querySelector('#gallery');
+    var getVal = function(elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+    var getHeight = function(item) { return item.querySelector('.content').getBoundingClientRect().height; };
+    var resizeAll = function() {
+        var altura = getVal(gallery, 'grid-auto-rows');
+        var gap = getVal(gallery, 'grid-row-gap');
+        gallery.querySelectorAll('.gallery-item').forEach(function(item) {
+            var el = item;
+            el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+        });
+    };
 
-// init with selector
-var msnry = new Masonry( '.grid', {
-  // options...
-});
+    gallery.querySelectorAll('img').forEach(function(item) {
+        item.classList.add('bye');
+        if (item.complete) {
+            console.log(item.src);
+        } else {
+            item.addEventListener('load', function() {
+                var altura = getVal(gallery, 'grid-auto-rows');
+                var gap = getVal(gallery, 'grid-row-gap');
+                var gitem = item.parentElement.parentElement;
+                gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+                item.classList.remove('byebye');
+            });
+        }
+    });
+    window.addEventListener('resize', resizeAll);
+    gallery.querySelectorAll('.gallery-item').forEach(function(item) {
+        item.addEventListener('click', function() {
+            item.classList.toggle('full');
+        });
+    });
     </script>
 </body>
 
