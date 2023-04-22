@@ -67,7 +67,7 @@ header {
     max-height: calc(100vh - 120px);
     margin: 72px auto 0;
 }
-/*.byebye {
+.byebye {
   opacity: 0;
 }
 .byebye:hover {
@@ -101,21 +101,6 @@ header {
 }
 .gallery .gallery-item:hover {
   transform: scale(1.025);
-}*/
-// Style next prev icons
-
-.lg-toolbar-next:before {
-  content: "\e094";
-}
-.lg-toolbar-prev:before {
-  content: "\e095";
-}
-
-/** Below CSS is completely optional **/
-
-.gallery-item {
-  width: 200px;
-  padding: 5px;
 }
 
 .fcf-body {
