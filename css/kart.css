@@ -133,6 +133,7 @@ button#fcf-button {
     right: 12px;
     top: 1px;
 }
+
 .btn {
     background: #ed9445;
     border-color: #ed9445;
@@ -147,6 +148,8 @@ button#fcf-button {
     margin: 0.875rem 0.875rem 0 0;
     padding: 1rem 1.5rem;
 }
+  a.btn:hover, a.btn:focus {
+    color: #1092AD; }
 .innerPort {
     position: relative;
     width: 100%;
