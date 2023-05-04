@@ -184,7 +184,7 @@ button#fcf-button {
   }
 }
 @media (max-width: 680px) {
-.half:first-of-type {
+.half, .half:first-of-type {
     width: 100%;
     margin-right: 0;
     margin-bottom: 50px;
