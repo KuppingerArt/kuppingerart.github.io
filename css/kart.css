@@ -203,6 +203,8 @@ button#fcf-button {
   animation: fade-left 1s ease-in;
 }
 .active.fade-right {
+  position:relative;
+  right:100px;
   animation: fade-right 1s ease-in;
 }
 @keyframes fade-bottom {
