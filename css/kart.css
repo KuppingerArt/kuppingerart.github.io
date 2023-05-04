@@ -133,7 +133,16 @@ button#fcf-button {
 .btn {
     background: #ed9445;
     border-color: #ed9445;
-    color: #494949;
+    color: #fff;
+    transition: all .2s linear;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.875rem 0.875rem 0 0;
+    padding: 1rem 1.5rem;
 }
 .innerPort {
     position: relative;
