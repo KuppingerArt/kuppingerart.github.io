@@ -182,8 +182,9 @@ button#fcf-button {
     padding: 0 0 20px;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 680px) {
 .half:first-of-type {
+    width: 100%;
     margin-right: 0;
     margin-bottom: 50px;
 }
