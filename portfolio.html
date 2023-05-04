@@ -25,9 +25,9 @@
                 <div class="row collapse">
                     <div class="large-12 columns">
                         <ul class="nav-primary">
-                            <li><a href="http://kuppingerart.com/#web">Web/UX Design</a></li>
-                            <li><a href="http://kuppingerart.com/#ad">Ad Design</a></li>
-                            <li><a href="http://kuppingerart.com/#email">Email Design</a></li>
+                            <li><a class="scrollLink" href="http://kuppingerart.com/#web">Web/UX Design</a></li>
+                            <li><a class="scrollLink" href="http://kuppingerart.com/#ad">Ad Design</a></li>
+                            <li><a class="scrollLink" href="http://kuppingerart.com/#email">Email Design</a></li>
                             <!--  <li><a href="/#">Other</a></li> -->
                             <li><a href="http://kuppingerart.com/index.html">Oil Paintings</a></li>
                             <li><a href="http://kuppingerart.com/form.html">Contact Me</a></li>
@@ -59,15 +59,24 @@
                 <h1>Web/UX Design and Front-end Development</h1>
                 <p>Creative and enthusiastic web designer with 15 + years of experience creating and maintaining clean, eye-catching websites. Proven record of collaborating with team members and clients
                     effectively. </p>
-                <a href="#web" role="button" class="btn" aria-label="Web Design"><span>Web/UX</span>
+                <a class="scrollLink" href="#web" role="button" class="btn" aria-label="Web Design"><span>Web/UX</span>
                 </a>  
-                <a href="#ad" role="button" class="btn" aria-label="Ad Design"><span>Ad</span>
+                <a class="scrollLink" href="#ad" role="button" class="btn" aria-label="Ad Design"><span>Ad</span>
                 </a> 
-                <a href="#ad" role="button" class="btn" aria-label="Email Design"><span>Email</span>
+                <a class="scrollLink" href="#email" role="button" class="btn" aria-label="Email Design"><span>Email</span>
                 </a>    
             </div>
         </div>
     </div>
+
+    <div id="web" class="section">
+    </div>
+    <div id="ad" class="section">
+    </div>
+    <div id="email" class="section">
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
     <script>
     var gallery = document.querySelector('#gallery');
     var getVal = function(elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
@@ -100,7 +109,17 @@
             item.classList.toggle('full');
         });
     });
+
+     $(document).ready(function() {
+          $("a.scrollLink").click(function(event) {
+              event.preventDefault();
+              $("html, body").animate({
+                  scrollTop: $($(this).attr("href")).offset().top
+                }, 500);
+            });
+        });
     </script>
+
 </body>
 
 </html>
