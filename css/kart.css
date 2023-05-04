@@ -181,6 +181,10 @@ button#fcf-button {
 .half h1 {
     font-size: 2.5rem;
     text-align:left;
+    font-family: 'Open Sans', sans-serif;
+}
+.innerPort p{
+  font-family: 'Open Sans', sans-serif;
 }
 @media (max-width: 1092px) {
   .frontLinks img {
