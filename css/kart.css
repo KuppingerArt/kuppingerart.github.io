@@ -163,9 +163,11 @@ button#fcf-button {
 }
 .half:first-of-type {
     margin-right: 50px;
+    text-align:center;
 }
 .half h1 {
     font-size: 2.5rem;
+    text-align:left;
 }
 @media (max-width: 1092px) {
   .frontLinks img {
