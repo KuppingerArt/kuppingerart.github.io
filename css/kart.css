@@ -127,8 +127,11 @@ button#fcf-button {
 } 
 
 .email {
-  float:right;
-  width:40px;
+    float: right;
+    width: 64px;
+    position: absolute;
+    right: 12px;
+    top: 1px;
 }
 .btn {
     background: #ed9445;
