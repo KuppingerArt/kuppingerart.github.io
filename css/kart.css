@@ -152,6 +152,9 @@ button#fcf-button {
 .half:first-of-type {
     margin-right: 50px;
 }
+.half h1 {
+    font-size: 2.5rem;
+}
 @media (max-width: 1092px) {
   .frontLinks img {
     max-height: 290px;
