@@ -138,9 +138,10 @@ button#fcf-button {
     position: relative;
     overflow: visible;
 }
-.profile img{
-  border-radius: 50px;
-  border: 2px solid #707070;
+.profile img {
+    border-radius: 218px;
+    border: 2px solid #707070;
+    max-width: 400px;
 }
 .half {
     float: left;
