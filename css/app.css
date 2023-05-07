@@ -20,7 +20,7 @@ header,
 hgroup,
 main,
 nav,
-section,
+proj,
 summary {
   display: block; }
 
@@ -104,7 +104,7 @@ a:hover {
    ========================================================================== */
 /**
  * Address font sizes and margins set differently in IE 6/7.
- * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * Address font sizes within `proj` and `article` in Firefox 4+, Safari 5,
  * and Chrome.
  */
 h1 {
@@ -115,9 +115,7 @@ h2 {
   font-size: 1.5em;
   margin: 0.83em 0; }
 
-h3 {
-  font-size: 1.17em;
-  margin: 1em 0; }
+
 
 h4 {
   font-size: 1em;
@@ -2879,7 +2877,7 @@ select {
 ## Headers ##
 ****************************/
 h1, h2, h3, h4, h5, h6 {
-    font-family: arial;
+    font-family: 'Open Sans';
     font-weight: 100;
     font-style: normal;
     color: #999999;
@@ -2896,8 +2894,7 @@ h1 {
 h2 {
   font-size: 1.6875rem; }
 
-h3 {
-  font-size: .85rem; }
+
 
 h4 {
   font-size: 1.125rem; }
@@ -2912,9 +2909,8 @@ h6 {
   h1 {
     font-size: 2.75rem; }
   h2 {
-    font-size: 2.3125rem; }
-  h3 {
-    font-size: .85rem; }
+    font-size: 2.2rem; }
+
   h4 {
     font-size: 1.4375rem; }
   h5 {
@@ -2926,9 +2922,8 @@ h6 {
   h1 {
     font-size: 3.375rem; }
   h2 {
-    font-size: 2.9375rem; }
-  h3 {
-    font-size: .85rem; }
+        font-size: 2.2rem;}
+
   h4 {
     font-size: 1.75rem; }
   h5 {
@@ -3736,46 +3731,6 @@ code {
       max-height: 40%;
       margin: 0 auto; } }
 
-.section {
-  padding: 50px 0; }
-  .section.features {
-    background-color: #F7F8FA; }
-  .section.section-multiple {
-    padding: 100px 0 50px; }
-
-.section-title,
-.section-subtitle {
-  text-align: center; }
-
-.section-title {
-  font-size: 3.125rem;
-  margin-bottom: 30px; }
-
-.section-subtitle {
-  display: block;
-  width: 100%;
-  font-size: 1.125rem;
-  margin-bottom: 30px; }
-  .section-subtitle span {
-    position: relative;
-    display: inline-block;
-    padding: 10px 0; }
-    .section-subtitle span:before {
-      content: "";
-      position: absolute;
-      width: 60%;
-      left: 20%;
-      height: 1px;
-      background: #444444;
-      top: 0; }
-    .section-subtitle span:after {
-      content: "";
-      position: absolute;
-      width: 60%;
-      left: 20%;
-      height: 1px;
-      background: #444444;
-      bottom: 0; }
 
 .drawer-position,
 .drawer-effect {
@@ -3874,10 +3829,10 @@ div.call-to-action {
 .features h5 + p {
   margin: 0; }
 
-.features .section-subtitle {
+.features .proj-subtitle {
   margin-bottom: 50px; }
   @media only screen and (min-width: 64.063em) {
-    .features .section-subtitle {
+    .features .proj-subtitle {
       margin-bottom: 100px; } }
 
 .beta {
@@ -3958,18 +3913,18 @@ div.call-to-action {
     .documentation h1 {
       padding-top: 0px; } }
 
-.documentation .section {
+.documentation .proj {
   padding: 0;
   margin-bottom: 50px; }
 
 .documentation .code-wrap {
   margin-bottom: 30px; }
 
-.documentation .sub-section {
+.documentation .sub-proj {
   margin-bottom: 30px; }
-  .documentation .sub-section .code-wrap {
+  .documentation .sub-proj .code-wrap {
     margin-bottom: 10px; }
-  .documentation .sub-section p {
+  .documentation .sub-proj p {
     margin: 0; }
 
 .nav-documentation {
@@ -4198,9 +4153,6 @@ pre.line-numbers > code {
 *************/
 html, body {
   height: 100%; }
-
-body {
-  margin: 80px 20px 0px; }
 
 /**************
 ## Container ##

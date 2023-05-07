@@ -6,14 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Greg Kuppinger Portfolio | Web/UX design and front-end development</title>
-    <link rel='stylesheet' href='../css/kart.css'>
-    <link rel='stylesheet' href='../css/app.css'>
+    <link rel='stylesheet' href='css/kart.css'>
+    <link rel='stylesheet' href='css/app.css'>
+    <link rel='stylesheet' href='css/simple-lightbox.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="wrapper">
     <header>
         <!-- Menu -->
         <div class="pure-container" data-effect="pure-effect-slide">
@@ -40,10 +42,10 @@
         <!-- Logo -->
         <div class="inner logo">
             <a href="portfolio.html">
-                <center><img src="http://kuppingerart.com/images/logoAlt.svg" alt="Email me" /></center>
+                <center><img src="images/logoAlt.svg" alt="Email me" /></center>
             </a>
             <a href="mailTo:kuppingerg@gmail.com" class="email">
-                <img src="http://kuppingerart.com/images/email.svg" alt="Greg Kuppinger logo" />
+                <img src="images/email.svg" alt="Greg Kuppinger logo" />
             </a>
         </div>
     </div>
@@ -51,7 +53,7 @@
     <div class="innerPort">
         <div class="half">
             <div class="profile">
-                <img src="/images/profilePicture.jpg" alt="Profile picture" />
+                <img src="images/profilePicture.jpg" alt="Profile picture" />
             </div>
         </div>
         <div class="half">
@@ -68,52 +70,116 @@
             </div>
         </div>
     </div>
-
-    <div id="web" class="section">
-        <h2>Hannay Reels Site Re-Design</h2>
-        
-    </div>
-    <div id="ad" class="section">
-       <div class="half">
-            <div class="reveal fade-left"><img src="/images/profilePicture.jpg" alt="Profile picture" width="200px"/></div>
+<!-- Projects -->
+    <div id="web" class="section reveal fade-bottom">
+        <h2>Web Design Projects <img src="images/web.svg" class="webIcon" alt="Web icons"/></h2>
+        <div class="proj">
+            <h3>LifeStorage: Commercial Storage Re-Design</h3>
+            <div class="noHalf">
+                <div class="webgallery1 portGal">
+                <a href="images/portfolio/Commercial-page1.jpg" class=""><img src="images/portfolio/Commercial-page1.jpg" alt="Commercial Page section 1" width="800px" title="Commercial storage page section 1"/></a>
+                <a href="images/portfolio/Commercial-page2.jpg" class=""><img src="images/portfolio/Commercial-page2.jpg" alt="Commercial Page section 2" width="800px" title="Commercial storage page section 2"/></a>
+                <a href="images/portfolio/Commercial-page3.jpg" class=""><img src="images/portfolio/Commercial-page3.jpg" alt="Commercial Storage Page section 3" width="800px" title="Commercial storage page section 3"/></a>
+                <a href="images/portfolio/storageCalculator.jpg" class=""><img src="images/portfolio/storageCalculator.jpg" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                </div>
+            </div>
         </div>
-        <div class="half">
-            <div class="reveal fade-right"><img src="/images/profilePicture.jpg" alt="Profile picture" width="200px"/></div>
+        <div class="proj">
+            <h3>LifeStorage: Kiosk Screen updates</h3>
+            <div class="noHalf  reveal fade-bottom">
+                <div class="webgallery2 portGal">
+                    <a href="images/portfolio/kiosk-register-keyboard.png" class=""><img src="images/portfolio/kiosk-register-keyboard.png" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                    <a href="images/portfolio/kiosk-register-b.png" class=""><img src="images/portfolio/kiosk-register-b.png" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                    <a href="images/portfolio/kiosk-create-signature-c.png" class=""><img src="images/portfolio/kiosk-create-signature-c.png" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                    <a href="images/portfolio/kiosk-filter-results.png" class=""><img src="images/portfolio/kiosk-filter-results.png" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                    <a href="images/portfolio/kiosk-rent-your-space-clear-filter copy.png" class=""><img src="images/portfolio/kiosk-rent-your-space-clear-filter copy.png" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="proj">
+            <h3>LifeStorage: Storage Size Estimator Modal</h3>
+            <div class="noHalf  reveal fade-bottom">
+                <div class="webgallery3 portGal">
+                    <a href="images/portfolio/StorageEstimator-modal.png" class=""><img src="images/portfolio/StorageEstimator-modal.png" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="proj">
+            <h3>Hannay Reels: Site Re-Design</h3>
+            <div class="half">
+                <div class="webgallery4 portGal">
+                <a href="images/portfolio/Hannay-old.jpg"><img src="images/portfolio/Hannay-old.jpg" alt="Profile picture" width="800px" title="Hannay Reals previous website"/></a>
+                </div>
+            </div>
+            <div class="half">
+                <div class="webgallery5 portGal reveal fade-right">
+                    <a href="images/portfolio/Hannay-new.jpg"><img src="images/portfolio/Hannay-new.jpg" alt="Profile picture" width="800px" title="Hannay Reals new design based on client feedback"/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ad" class="section reveal fade-bottom">
+        <h2>Static and Animated Display Ads <img src="images/web.svg" class="webIcon" alt="Web icons"/></h2>
+        <div class="proj">
+            <h3>Hannay Reels: Site Re-Design</h3>
+            <div class="noHalf">
+                <div class="webgallery6 portGal">
+                <a href="images/portfolio/Commercial-page1.jpg" class=""><img src="images/portfolio/Commercial-page1.jpg" alt="Commercial Page section 1" width="800px" title="Commercial storage page section 1"/></a>
+                <a href="images/portfolio/Commercial-page2.jpg" class=""><img src="images/portfolio/Commercial-page2.jpg" alt="Commercial Page section 2" width="800px" title="Commercial storage page section 2"/></a>
+                <a href="images/portfolio/Commercial-page3.jpg" class=""><img src="images/portfolio/Commercial-page3.jpg" alt="Commercial Storage Page section 3" width="800px" title="Commercial storage page section 3"/></a>
+                <a href="images/portfolio/storageCalculator.jpg" class=""><img src="images/portfolio/storageCalculator.jpg" alt="storageCalculator" width="800px" title="Storage Space Calculator: Designed layout and icons"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="proj">
+            <h3>Hannay Reels: Site Re-Design</h3>
+            <div class="half">
+                <div class="webgallery7 portGal">
+                <a href="images/portfolio/Hannay-old.jpg"><img src="images/portfolio/Hannay-old.jpg" alt="Profile picture" width="800px" title="Hannay Reals previous website"/></a>
+                </div>
+            </div>
+            <div class="half">
+                <div class="webgallery8 portGal reveal fade-right">
+                    <a href="images/portfolio/Hannay-new.jpg"><img src="images/portfolio/Hannay-new.jpg" alt="Profile picture" width="800px" title="Hannay Reals new design based on client feedback"/></a>
+                </div>
+            </div>
         </div>
     </div>
     <div id="email" class="section">
     </div>
-
+  </div> <!-- wrapper -->  
       <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script src = "js/simple-lightbox.jquery.js"></script>
+<script>
+    (function() {
+        var $gallery1 = new SimpleLightbox('.webgallery1 a', {});
+        var $gallery2 = new SimpleLightbox('.webgallery2 a', {});
+        var $gallery3 = new SimpleLightbox('.webgallery3 a', {});
+        var $gallery4 = new SimpleLightbox('.webgallery4 a', {});
+        var $gallery5 = new SimpleLightbox('.webgallery5 a', {});
+        var $gallery6 = new SimpleLightbox('.webgallery6 a', {});
+        var $gallery7 = new SimpleLightbox('.webgallery7 a', {});
+        var $gallery8 = new SimpleLightbox('.webgallery8 a', {});
+    })();
+
+</script>
     <script>
 
-     $(document).ready(function() {
-          $("a.scrollLink").click(function(event) {
-              event.preventDefault();
-              $("html, body").animate({
-                  scrollTop: $($(this).attr("href")).offset().top
-                }, 500);
-            });
-        });
-     
-     window.addEventListener("scroll", reveal);
+    $(document).ready(function() {
+$("a.scrollLink").click(function(event) {
+event.preventDefault();
+$("html, body").animate({
+scrollTop: $($(this).attr("href")).offset().top
+}, 500);
+});
+});
+window.addEventListener("scroll", reveal);
+// To check the scroll position on page load
+reveal();
+function reveal() {
+var reveals = document.querySelectorAll(".reveal");
+for (var i = 0; i < reveals.length; i++) { var windowHeight=window.innerHeight; var elementTop=reveals[i].getBoundingClientRect().top; var elementVisible=150; if (elementTop < windowHeight - elementVisible) { reveals[i].classList.add("active"); } else { reveals[i].classList.remove("active"); } } }
 
-        // To check the scroll position on page load
-        reveal();
-     
-     function reveal() {
-        var reveals = document.querySelectorAll(".reveal");
-        for (var i = 0; i < reveals.length; i++) {
-            var windowHeight = window.innerHeight;
-            var elementTop = reveals[i].getBoundingClientRect().top;
-            var elementVisible = 150;
-            if (elementTop < windowHeight - elementVisible) {
-            reveals[i].classList.add("active");
-            } else {
-            reveals[i].classList.remove("active");
-            }
-        }
-    }
     </script>
 
 </body>
