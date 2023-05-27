@@ -46,7 +46,7 @@ h3 {
     font-size: 1.85rem;
         margin-bottom: 1.875rem !important;
 }
-.webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery4.portGal, .webgallery5.portGal, .webgallery6.portGal, .webgallery7.portGal {
+.webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery5.portGal, .webgallery6.portGal, .webgallery7.portGal {
     text-align: center;
 }
 .innerPort p { font-family: 'Open Sans', sans-serif; }
