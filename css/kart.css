@@ -9,7 +9,7 @@ header { border-bottom: 1px solid #707070; height: 60px; position: fixed; top: 0
 .linkList { text-align: center; }
 .frontLinks li { display: inline-block; }
 .frontLinks img { max-height: 400px; }
-.frontLinks { margin: 0 auto; text-align: center; padding: 0; }
+.frontLinks { margin: 72px auto 0; text-align: center; padding: 0; }
 
 /* Gallery */
 .hello { opacity: 1 !important; }
@@ -42,13 +42,9 @@ a.btn:hover, a.btn:focus { background: #1092AD; border-color: #1092AD; color: #f
 .half h1 { font-size: 2.5rem; text-align: left; font-family: 'Open Sans', sans-serif; }
 .noHalf{padding:0 30px;}
 .noHalf a {margin:0 10px;}
-h3 {
-    font-size: 1.85rem;
-        margin-bottom: 1.875rem !important;
-}
-.webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery5.portGal, .webgallery6.portGal, .webgallery7.portGal {
-    text-align: center;
-}
+.noHalf a img{margin-bottom:20px;}
+h3 { font-size: 1.85rem; margin-bottom: 1.875rem !important; }
+.webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery5.portGal, .webgallery6.portGal, .webgallery7.portGal { text-align: center; }
 .innerPort p { font-family: 'Open Sans', sans-serif; }
 .reveal { position: relative; opacity: 0; }
 .reveal.active { opacity: 1; }
