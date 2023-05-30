@@ -32,6 +32,7 @@ button#fcf-button { padding: 12px; background: #ed9445; border: 1px solid #c35c0
 .btn { background: #ed9445; border-color: #ed9445; color: #fff; transition: all .2s linear; display: inline-block; cursor: pointer; border-radius: 3px; font-weight: bold; text-align: center; font-size: 1rem; margin: 0.875rem 0.875rem 0 0; padding: 1rem 1.5rem; }
 a.btn:hover, a.btn:focus { background: #1092AD; border-color: #1092AD; color: #fff; }
 .innerPort { width: 100%; max-width: 1024px; margin-left: auto; margin-right: auto; margin-bottom: 50px; display: block; clear: both; overflow: hidden; padding: 40px 20px 80px; }
+a.btn.fig:hover, a.btn.fig:focus { background: #666666; border-color: #666666; color: #fff; }
 
 .section { margin: 50px 0; display: block; padding: 40px 0px; clear: both; }
 .profile img { border-radius: 218px; border: 1px solid #707070; max-width: 300px; }
@@ -43,6 +44,8 @@ a.btn:hover, a.btn:focus { background: #1092AD; border-color: #1092AD; color: #f
 .noHalf{padding:0 30px;}
 .noHalf a {margin:0 10px;}
 .noHalf a img{margin-bottom:20px;}
+a.btn.fig { background: #000000; border-color: #000000; margin: auto; width: 125px; display: block; margin-top: 30px; }
+.noHalf a.fig img { width: 12px; margin: 0 8px 0 0; }
 h3 { font-size: 1.85rem; margin-bottom: 1.875rem !important; }
 .webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery5.portGal, .webgallery6.portGal, .webgallery7.portGal { text-align: center; }
 .innerPort p { font-family: 'Open Sans', sans-serif; }
@@ -64,6 +67,11 @@ h3 { font-size: 1.85rem; margin-bottom: 1.875rem !important; }
 .proj-subtitle span { position: relative; display: inline-block; padding: 10px 0; }
 .proj-subtitle span:before { content: ""; position: absolute; width: 60%; left: 20%; height: 1px; background: #444444; top: 0; }
 .proj-subtitle span:after { content: ""; position: absolute; width: 60%; left: 20%; height: 1px; background: #444444; bottom: 0; }
+
+
+
+
+
 @keyframes fade-bottom {
   0% { transform: translateY(50px); opacity: 0; }
   100% { transform: translateY(0); opacity: 1; }
