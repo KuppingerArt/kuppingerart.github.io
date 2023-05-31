@@ -18,8 +18,8 @@ header { border-bottom: 1px solid #707070; height: 60px; position: fixed; top: 0
 .full .content img { left: 50%; transform: translate3d(0, 0, 0); animation: zoomin 1s ease; max-width: 100%; max-height: calc(100vh - 144px); margin: 94px auto 0; }
 .byebye { opacity: 0; }
 .byebye:hover { transform: scale(0.2) !important; }
-.gallery { display: grid; grid-column-gap: 8px; grid-row-gap: 8px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); grid-auto-rows: 8px; }
-.gallery img { max-width: 100%; border-radius: 8px; box-shadow: 0 0 16px #333; transition: all 1.5s ease; }
+.gallery { padding: 90px 60px; display: grid; grid-column-gap: 8px; grid-row-gap: 8px; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); grid-auto-rows: 8px; }
+.gallery img { max-width: 100%; border-radius: 8px; box-shadow: 0 0 10px #333; transition: all 1.5s ease; }
 .gallery img:hover { box-shadow: 0 0 32px #333; }
 .gallery .content { padding: 4px; }
 .gallery .gallery-item { transition: grid-row-start 300ms linear; transition: transform 300ms ease; transition: all 0.5s ease; cursor: pointer; }
@@ -33,7 +33,7 @@ button#fcf-button { padding: 12px; background: #ed9445; border: 1px solid #c35c0
 a.btn:hover, a.btn:focus { background: #1092AD; border-color: #1092AD; color: #fff; }
 .innerPort { width: 100%; max-width: 1024px; margin-left: auto; margin-right: auto; margin-bottom: 50px; display: block; clear: both; overflow: hidden; padding: 40px 20px 80px; }
 a.btn.fig:hover, a.btn.fig:focus { background: #666666; border-color: #666666; color: #fff; }
-
+.ex_container { padding: 90px 20px 40px; }
 .section { margin: 50px 0; display: block; padding: 40px 0px; clear: both; }
 .profile img { border-radius: 218px; border: 1px solid #707070; max-width: 300px; }
 .webIcon { max-width: 12rem; }
@@ -67,9 +67,101 @@ h3 { font-size: 1.85rem; margin-bottom: 1.875rem !important; }
 .proj-subtitle span { position: relative; display: inline-block; padding: 10px 0; }
 .proj-subtitle span:before { content: ""; position: absolute; width: 60%; left: 20%; height: 1px; background: #444444; top: 0; }
 .proj-subtitle span:after { content: ""; position: absolute; width: 60%; left: 20%; height: 1px; background: #444444; bottom: 0; }
+.content h3{font-size:14px;}
+img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-left: 5px; }
+.box {
+  margin:20px 5px;
+  position: relative;
+  max-height: 400px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 1.4px 1.7px rgba(0, 0, 0, 0.017), 0 3.3px 4px rgba(0, 0, 0, 0.024), 0 6.3px 7.5px rgba(0, 0, 0, 0.03), 0 11.2px 13.4px rgba(0, 0, 0, 0.036), 0 20.9px 25.1px rgba(0, 0, 0, 0.043), 0 50px 60px rgba(0, 0, 0, 0.06);
+}
+.box .hide {
+  opacity: 0;
+}
+.box .frame {
+  position: absolute;
+  border: 1px solid #fff;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.box h2, .box p {
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  width: 100%;
+  transition: opacity 0.2s, transform 0.3s;
+}
+.box h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+.box p {
+  bottom: 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.box:hover {
+  transition: all 0.3s ease-in-out;
+}
+.box:hover:before {
+  transition: all 0.3s ease-in-out;
+}
+.box img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+.box img:hover {
+  transition: all 0.3s ease-in-out;
+}
+.box img:after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.box img:hover {
+  transition: all 0.3s ease-in-out;
+}
 
+.vintage h2 {
+  opacity: 0;
+  bottom: 0;
+  transform: translate3d(0, -10px, 0);
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.vintage:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+  z-index: 2;
+  bottom: -100%;
+  left: 0;
+}
+.vintage:hover:before {
+  bottom: 0;
+}
 
-
+.vintage:hover h2 {
+  opacity: 1;
+  transform: translate3d(0, -30px, 0);
+}
 
 
 @keyframes fade-bottom {
