@@ -60,7 +60,7 @@ h3 { font-size: 1.85rem; margin-bottom: 1.875rem !important; }
 .section h2 { font-family: 'Open Sans'; font-weight: 100; font-style: normal; color: #999999; text-rendering: optimizeLegibility; margin-top: 0.2rem; margin-bottom: 1.5rem; line-height: 1em; text-align: left; display: block; position: relative; padding-bottom: 12px; padding-top: 20px; }
 .section h2:after { content: ""; display: block; background: #1092AD; height: 1px; width: 100%; top: 100%; position: absolute; }
 .webIcon { max-width: 1.8rem; position: relative; top: 0px; margin: 0 0 0 5px; }
-.proj { padding: 50px 0; overflow: auto; }
+.proj { padding: 50px 0;}
 .proj-title, .proj-subtitle { text-align: center; }
 .proj-title { font-size: 3.125rem; margin-bottom: 30px; }
 .proj-subtitle { display: block; width: 100%; font-size: 1.125rem; margin-bottom: 30px; }
