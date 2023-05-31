@@ -194,6 +194,14 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
 @media (max-width:600px) {
   .gallery { grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); }
 }
+@media (max-width:500px){
+  .section h2 {
+    font-size: 1.35rem;
+}
+.section h3 {
+  font-size: 1.25rem;
+}
+}
 @media (max-width:400px) {
   .gallery { grid-template-columns: repeat(auto-fill, minmax(50%, 1fr)); }
   .btn { width: 100%; }
