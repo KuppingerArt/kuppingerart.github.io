@@ -47,7 +47,7 @@ a.btn.fig:hover, a.btn.fig:focus { background: #666666; border-color: #666666; c
 a.btn.fig { background: #000000; border-color: #000000; margin: auto; width: 125px; display: block; margin-top: 30px; }
 .noHalf a.fig img { width: 12px; margin: 0 8px 0 0; }
 h3 { font-size: 1.85rem; margin-bottom: 1.875rem !important; }
-.webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery5.portGal, .webgallery6.portGal, .webgallery7.portGal, .webgallery8.portGal, .webgallery9.portGal{ text-align: center; }
+.webgallery1.portGal, .webgallery2.portGal, .webgallery3.portGal, .webgallery4.portGal, .webgallery5.portGal, .webgallery7.portGal, .webgallery8.portGal, .webgallery9.portGal, .webgallery10.portGal, .webgallery11.portGal{ text-align: center; }
 .innerPort p { font-family: 'Open Sans', sans-serif; }
 .reveal { position: relative; opacity: 0; }
 .reveal.active { opacity: 1; }
