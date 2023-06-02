@@ -80,7 +80,7 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
 .box .hide {
   opacity: 0;
 }
-.box .frame {
+.frame {
   position: absolute;
   border: 1px solid #fff;
   z-index: 2;
@@ -162,7 +162,7 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
   opacity: 1;
   transform: translate3d(0, -30px, 0);
 }
-.vintage.frame:hover {
+.vintage:hover .frame{
   border-color: #fff;
   transition: color 0.3s ease-in-out, all 0.3s ease-in-out;
   width: calc(100% - 20px);
