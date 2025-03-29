@@ -8,7 +8,7 @@ header { border-bottom: 1px solid #707070; height: 60px; position: fixed; top: 0
 .inner.logo img { max-width: 12rem; padding: 1em; }
 .linkList { text-align: center; }
 .frontLinks li { display: inline-block; }
-.frontLinks img { max-height: 400px; }
+.frontLinks img { max-height: /*400px;*/80vh }
 .frontLinks { margin: 72px auto 0; text-align: center; padding: 0; }
 
 /* Gallery */
@@ -73,7 +73,7 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
 .box {
   margin:20px 5px;
   position: relative;
-  max-height: 400px;
+  max-height: /*400px*/ 100vh;
   border-radius: 4px;
   overflow: hidden;
   box-shadow: 0 1.4px 1.7px rgba(0, 0, 0, 0.017), 0 3.3px 4px rgba(0, 0, 0, 0.024), 0 6.3px 7.5px rgba(0, 0, 0, 0.03), 0 11.2px 13.4px rgba(0, 0, 0, 0.036), 0 20.9px 25.1px rgba(0, 0, 0, 0.043), 0 50px 60px rgba(0, 0, 0, 0.06);
@@ -183,11 +183,11 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
   100% { transform: translateX(0); opacity: 1; }
 }
 @media (max-width:1092px) {
-  .frontLinks img { max-height: 290px; }
+ /* .frontLinks img { max-height: 290px; }*/
 }
 @media (max-width:805px) {
   .frontLinks li { display: block; }
-  .frontLinks img { max-height: unset; min-width: 100%; padding: 0 0 20px; }
+  .frontLinks img { /*max-height: unset; min-width: 100%;*/width: unset; padding: 0 0 20px; }
 }
 @media (max-width:765px) {
   .half, .half:first-of-type { width: 100%; margin-right: 0; margin-bottom: 50px; }
