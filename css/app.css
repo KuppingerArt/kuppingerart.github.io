@@ -2799,7 +2799,6 @@ body {
   font-size: 100%; }
 
 body {
-  background: #989797;
   color: #999;
   padding: 0;
   margin: 0;
@@ -2809,7 +2808,9 @@ body {
   line-height: 1;
   position: relative;
   cursor: default; }
-
+body.home{
+  background: #989797;
+}
 a:hover {
   cursor: pointer; }
 
