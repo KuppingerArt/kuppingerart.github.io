@@ -3,6 +3,8 @@
 /* CSS Document */
 .wrapper { margin: 0; background-color: #fdfdfd; padding: 80px 20px 0px; }
 header { border-bottom: 1px solid #707070; height: 60px; position: fixed; top: 0; left: 0; z-index: 1000; width: 100%; background: rgba(237, 237, 237, 0.75); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
+/* The blur above makes the header the menu panel's anchor box, so the panel's 100% height shrinks to the 60px header and its background no longer covers the menu items. Viewport height restores the full panel. */
+header .pure-drawer { height: 100vh; }
 .inner { position: relative; width: 100%; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; }
 .inner a { text-align: center; }
 .inner.logo img { max-width: 12rem; padding: 1em; }
