@@ -12,7 +12,18 @@ header .pure-drawer { height: 100vh; }
 .frontLinks li { display: inline-block; }
 .frontLinks img { max-height: /*400px;*/80vh }
 .frontLinks { margin: 28px auto 0; text-align: center; padding: 0; }
-.statement { max-width: 880px; margin: 80px auto 0; padding: 0 20px; text-align: center; font-size: 1.1rem; line-height: 1.6; color: #333; }
+.statement {
+    max-width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 80px auto 0;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    position: relative;
+    top: -190px;
+}
 .statement p { margin: 0 0 1em; }
 
 /* Gallery */
@@ -262,6 +273,12 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
 /* Homepage hero video: full-width band at a fixed height, statement below it.
    The video is taller than the band (130%, offset -15%) so the scroll script can
    drift it downward as you scroll for a slight parallax effect without exposing edges. */
-.hero { position: relative; height: 70vh; min-height: 420px; overflow: hidden; }
+.hero {
+  position: relative;
+  height: 100%;
+  min-height: 420px;
+  overflow: hidden;
+  top: 0;
+}
 .hero-video { position: absolute; left: 0; top: -15%; width: 100%; height: 130%; object-fit: cover; }
 @media (max-width: 600px) { .hero { height: 60vh; min-height: 320px; } }
