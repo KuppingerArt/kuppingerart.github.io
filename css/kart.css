@@ -2,15 +2,16 @@
 
 /* CSS Document */
 .wrapper { margin: 0; background-color: #fdfdfd; padding: 80px 20px 0px; }
-header { border-bottom: 1px solid #707070; height: 60px; position: fixed; top: 0; left: 0; z-index: 1000; width: 100%; background: #ededed; }
+header { border-bottom: 1px solid #707070; height: 60px; position: fixed; top: 0; left: 0; z-index: 1000; width: 100%; background: rgba(237, 237, 237, 0.75); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); }
 .inner { position: relative; width: 100%; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; }
 .inner a { text-align: center; }
 .inner.logo img { max-width: 12rem; padding: 1em; }
 .linkList { text-align: center; }
 .frontLinks li { display: inline-block; }
 .frontLinks img { max-height: /*400px;*/80vh }
-.frontLinks { margin: 28px auto 0; text-align: center; padding: 0; }
-.statement { max-width: 880px; margin: 80px auto 0; padding: 0 20px; text-align: center; font-size: 1.1rem; line-height: 1.6; color: #333; }
+.frontLinks { margin: 72px auto 0; text-align: center; padding: 0; }
+.statement { max-width: 640px; margin: 110px auto 0; padding: 0 20px; text-align: center; font-size: 1.1rem; line-height: 1.6; color: #333; }
+.statement p { margin: 0 0 1em; }
 
 /* Gallery */
 .hello { opacity: 1 !important; }
