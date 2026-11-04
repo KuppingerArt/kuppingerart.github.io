@@ -190,7 +190,7 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
   height: calc(100% - 20px);
 }
 .ssbtn-default {
-  display:none;
+  display:none !important;
 }
 @keyframes fade-bottom {
   0% { transform: translateY(50px); opacity: 0; }
@@ -221,6 +221,7 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
 }
 @media (max-width:900px) {
   .gallery { columns: 2; }
+  .statement { top: -222px; }
 }
 @media (max-width:600px) {
   .gallery { columns: 2; column-gap: 20px; padding: 90px 20px 40px; }
