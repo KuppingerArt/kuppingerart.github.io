@@ -259,3 +259,9 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
   70% { max-width: 70%; }
   100% { max-width: 100%; }
 }
+/* Homepage hero video: full-width band at a fixed height, statement below it.
+   The video is taller than the band (130%, offset -15%) so the scroll script can
+   drift it downward as you scroll for a slight parallax effect without exposing edges. */
+.hero { position: relative; height: 70vh; min-height: 420px; overflow: hidden; }
+.hero-video { position: absolute; left: 0; top: -15%; width: 100%; height: 130%; object-fit: cover; }
+@media (max-width: 600px) { .hero { height: 60vh; min-height: 320px; } }

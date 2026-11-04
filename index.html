@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kuppinger Art</title>
     <meta name="description" content="Oil paintings by Greg Kuppinger, painting as Moth — figures in dark rooms lit by a single lamp, on canvas and raw sandpaper.">
-    <link rel='stylesheet' href='css/kart.css?v=2'>
+    <link rel='stylesheet' href='css/kart.css?v=3'>
     <link rel='stylesheet' href='css/app.css?v=1'>
 </head>
 
@@ -41,6 +41,11 @@
                 </a>
             </div>
     </header>
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="videos/hero-poster.jpg">
+            <source src="videos/hero.mp4" type="video/mp4">
+        </video>
+    </section>
     <div class="statement">
         <p>"I am interested in the space between what we see and what we experience internally. My paintings explore solitude, perception, light, and the environments that shape our emotional lives."</p>
     </div>
@@ -76,7 +81,27 @@
         </li>
     -->
     </ul>
-    
+    <script>
+    (function () {
+        var hero = document.querySelector('.hero');
+        var video = document.querySelector('.hero-video');
+        if (!hero || !video) return;
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        var ticking = false;
+        function update() {
+            ticking = false;
+            var rect = hero.getBoundingClientRect();
+            if (rect.bottom > 0 && rect.top < window.innerHeight) {
+                // Video drifts down slower than the page scrolls, so the visible slice shifts as you scroll.
+                video.style.transform = 'translateY(' + (-rect.top * 0.15) + 'px)';
+            }
+        }
+        window.addEventListener('scroll', function () {
+            if (!ticking) { ticking = true; requestAnimationFrame(update); }
+        }, { passive: true });
+        update();
+    })();
+    </script>
 </body>
 
 </html>
