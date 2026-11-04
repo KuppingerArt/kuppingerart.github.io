@@ -189,7 +189,9 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
   width: calc(100% - 20px);
   height: calc(100% - 20px);
 }
-
+.ssbtn-default {
+  display:none;
+}
 @keyframes fade-bottom {
   0% { transform: translateY(50px); opacity: 0; }
   100% { transform: translateY(0); opacity: 1; }
@@ -239,6 +241,9 @@ img.emailnav { width: 23px; color: #000; position: relative; top: -2px; margin-l
   .half:first-of-type { margin-right: 0px; text-align: center; }
   .profile img { border-radius: 218px; border: 1px solid #707070; max-width: 100%; }
   .section { margin: 0px 0; display: block; padding: 40px 0px; clear: both; }
+   .statement {
+    top: -240px;
+  }
 }
 @media (max-width:323px) {
   .webIcon { display: none; }
