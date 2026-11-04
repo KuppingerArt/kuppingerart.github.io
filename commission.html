@@ -1,13 +1,14 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Kuppinger Art | Commissioned Paintings</title>
-    <link rel='stylesheet' href='../css/kart.css'>
-    <link rel='stylesheet' href='../css/app.css'>
+    <meta name="description" content="Commissioned paintings by Greg Kuppinger.">
+    <link rel='stylesheet' href='css/kart.css'>
+    <link rel='stylesheet' href='css/app.css'>
 </head>
 
 <body>
@@ -22,13 +23,13 @@
                 <div class="row collapse">
                     <div class="large-12 columns">
                         <ul class="nav-primary">
-                            <li><a href="http://kuppingerart.com/index.html">Home</a></li>
-                            <li><a href="http://kuppingerart.com/canvas.html">Canvas</a></li>
-                            <li><a href="http://kuppingerart.com/sand.html">Sandpaper</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="canvas.html">Canvas</a></li>
+                            <li><a href="sand.html">Sandpaper</a></li>
                             <!--  <li><a href="/#">Other</a></li> -->
-                            <li><a href="http://kuppingerart.com/commission.html">Commissioned Work</a></li>
-                            <li><a href="http://kuppingerart.com/exhibition.html">Exhibitions</a></li>
-                            <li><a href="mailTo:kuppingerg@gmail.com">Contact Me <img class="emailnav" src="images/emailnav.png" alt=""/></a></li>
+                            <li><a href="commission.html">Commissioned Work</a></li>
+                            <li><a href="exhibition.html">Exhibitions</a></li>
+                            <li><a href="mailto:kuppingerg@gmail.com">Contact Me <img class="emailnav" src="images/emailnav.png" alt=""/></a></li>
                         </ul>
                     </div>
                 </div>
@@ -36,74 +37,47 @@
             <!-- Logo -->
             <div class="inner logo">
                 <a href="index.html">
-                    <center><img src="http://kuppingerart.com/images/logo.svg" alt="Greg Kuppinger logo signature" /></center>
+                    <center><img src="images/logo.svg" alt="Greg Kuppinger logo signature" /></center>
                 </a>
             </div>
     </header>
     <div class="gallery" id="gallery">
         <div class="gallery-item">
-            <div class="content"><img src="images/commission/ComHorse.jpg" alt="Horse" />
+            <div class="content"><img src="images/commission/ComHorse.jpg" alt="Horse"  loading="lazy" decoding="async" />
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/commission/com1.jpg" alt="Oil painting">
+            <div class="content"><img src="images/commission/com1.jpg" alt="Oil painting" loading="lazy" decoding="async">
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/commission/com3.jpg" alt="Oil painting" />
+            <div class="content"><img src="images/commission/com3.jpg" alt="Oil painting"  loading="lazy" decoding="async" />
             </div>
         </div>
          <div class="gallery-item">
-            <div class="content"><img src="images/commission/Gima.jpg" alt="Oil painting" />
+            <div class="content"><img src="images/commission/Gima.jpg" alt="Oil painting"  loading="lazy" decoding="async" />
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/commission/com4.jpg" alt="Oil painting" />
+            <div class="content"><img src="images/commission/com4.jpg" alt="Oil painting"  loading="lazy" decoding="async" />
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/commission/com5.jpg" alt="Oil painting" />
+            <div class="content"><img src="images/commission/com5.jpg" alt="Oil painting"  loading="lazy" decoding="async" />
             </div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/commission/Kevin.png" alt="Oil painting" />
+            <div class="content"><img src="images/commission/Kevin.png" alt="Oil painting"  loading="lazy" decoding="async" />
             </div>
         </div>
     </div>
     </div>
-    <script>
-    var gallery = document.querySelector('#gallery');
-    var getVal = function(elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
-    var getHeight = function(item) { return item.querySelector('.content').getBoundingClientRect().height; };
-    var resizeAll = function() {
-        var altura = getVal(gallery, 'grid-auto-rows');
-        var gap = getVal(gallery, 'grid-row-gap');
-        gallery.querySelectorAll('.gallery-item').forEach(function(item) {
-            var el = item;
-            el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
-        });
-    };
-    gallery.querySelectorAll('img').forEach(function(item) {
-        item.classList.add('bye');
-        if (item.complete) {
-            console.log(item.src);
-        } else {
-            item.addEventListener('load', function() {
-                var altura = getVal(gallery, 'grid-auto-rows');
-                var gap = getVal(gallery, 'grid-row-gap');
-                var gitem = item.parentElement.parentElement;
-                gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
-                item.classList.remove('byebye');
-            });
-        }
-    });
-    window.addEventListener('resize', resizeAll);
-    gallery.querySelectorAll('.gallery-item').forEach(function(item) {
-        item.addEventListener('click', function() {
-            item.classList.toggle('full');
-        });
-    });
-    </script>
+    
+<script>
+document.querySelectorAll('.gallery-item').forEach(function(item) {
+    item.addEventListener('click', function() { item.classList.toggle('full'); });
+});
+</script>
 </body>
 
 </html>

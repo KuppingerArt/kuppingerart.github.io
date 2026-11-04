@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,9 +9,9 @@
 <!-- TemplateEndEditable -->
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
-    <link rel='stylesheet' href='../css/kart.css'>
-    <link rel='stylesheet' href='../css/slide.css'>
-    <link rel='stylesheet' href='../css/app.css'>
+    <link rel='stylesheet' href='css/kart.css'>
+    <link rel='stylesheet' href='css/slide.css'>
+    <link rel='stylesheet' href='css/app.css'>
 </head>
 
 <body>
@@ -28,13 +28,13 @@
                 <div class="row collapse">
                     <div class="large-12 columns">
                         <ul class="nav-primary">
-                            <li><a href="http://kuppingerart.com/index.html">Home</a></li>
-                            <li><a href="http://kuppingerart.com/canvas.html">Canvas</a></li>
-                            <li><a href="http://kuppingerart.com/sand.html">Sandpaper</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="canvas.html">Canvas</a></li>
+                            <li><a href="sand.html">Sandpaper</a></li>
                            <!--  <li><a href="/#">Other</a></li> -->
-                            <li><a href="http://kuppingerart.com/commission.html">Commissioned Work</a></li>
-                            <li><a href="http://kuppingerart.com/exhibition.html">Exhibitions</a></li>
-                            <li><a href="http://kuppingerart.com/form.html">Contact Me</a></li>
+                            <li><a href="commission.html">Commissioned Work</a></li>
+                            <li><a href="exhibition.html">Exhibitions</a></li>
+                            <li><a href="form.html">Contact Me</a></li>
                         </ul>
                     </div>
                 </div>
@@ -45,8 +45,8 @@
 <!-- Logo -->
 
 <div class="inner logo">
-    <a href="index.php">
-        <center><img src="http://kuppingerart.com/images/logo.svg" alt="Greg Kuppinger logo signature"/></center>
+    <a href="index.html">
+        <center><img src="images/logo.svg" alt="Greg Kuppinger logo signature" /></center>
     </a> 
 </div>            
 
@@ -57,25 +57,25 @@
   
        <div class="gallery" id="gallery">
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/jojo.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/JoJo.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/FloweredHat.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/FloweredHat.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/Cassondra.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/Cassondra.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/Catabolic_Consciousness.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/Catabolic_Consciousness.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/Dark_center.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/Dark_center.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/Ezekiels_Calling.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/Ezekiels_Calling.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
         <div class="gallery-item">
-            <div class="content"><img src="images/sand/Ezekiels_Vision.jpg" alt=""></div>
+            <div class="content"><img src="images/sand/Ezekiels_Vision.jpg" alt="" loading="lazy" decoding="async"></div>
         </div>
      
      
@@ -83,15 +83,11 @@
   
 
 
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/gallery.js"></script>
-<script src="js/app.js"></script>
+
 <script>
-  var container = document.querySelector('#masonry');
-  var masonry = new Masonry(container, {
-    columnWidth: 50,
-    itemSelector: '.item'
-  });
+document.querySelectorAll('.gallery-item').forEach(function(item) {
+    item.addEventListener('click', function() { item.classList.toggle('full'); });
+});
 </script>
 </body>
 </html>
