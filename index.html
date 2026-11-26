@@ -9,6 +9,19 @@
     <meta name="description" content="Oil paintings by Greg Kuppinger, painting as Moth — figures in dark rooms lit by a single lamp, on canvas and raw sandpaper.">
     <link rel='stylesheet' href='css/kart.css?v=3'>
     <link rel='stylesheet' href='css/app.css?v=1'>
+    <style>
+        /* Homepage about section: studio photo left, condensed statement right.
+           The statement above is pulled up over the hero video (top: -190px in
+           kart.css), so the negative top margins below close the dead space it
+           leaves, keeping about 40px of visible gap at every breakpoint. */
+        .about { max-width: 980px; margin: -150px auto 60px; padding: 0 24px; display: flex; gap: 36px; align-items: flex-start; }
+        .about img { width: 38%; height: auto; display: block; border-radius: 2px; box-shadow: 0 1px 4px rgba(0,0,0,0.18); }
+        .about-text { flex: 1; color: #333; line-height: 1.65; }
+        .about-text p { margin: 0 0 14px; }
+        @media (max-width: 900px) { .about { margin-top: -182px; } }
+        @media (max-width: 700px) { .about { flex-direction: column; gap: 20px; } .about img { width: 100%; } }
+        @media (max-width: 400px) { .about { margin-top: -200px; } }
+    </style>
 </head>
 
 <body class="home">
@@ -50,6 +63,13 @@
     <div class="statement">
         <p>"I am interested in the space between what we see and what we experience internally. My paintings explore solitude, perception, light, and the environments that shape our emotional lives."</p>
     </div>
+    <section class="about">
+        <img src="images/greg-studio.jpg" alt="Greg Kuppinger in his Hunt studio" loading="lazy" decoding="async">
+        <div class="about-text">
+            <p>My fascination with light began as a child, when my father would ask, &ldquo;How would you paint that?&rdquo; as sunlight moved through the trees. That curiosity still drives my work today.</p>
+            <p>I paint primarily in oil, moving between figurative work and tactile explorations of surface &mdash; the Sandpaper Series grew from the patterns I saw looking into darkness. My recent paintings place solitary, contemplative figures in spaces that feel familiar yet psychologically distant. I paint to slow down and look more closely, hoping the work creates a moment of stillness &mdash; a chance to consider the unseen parts of ourselves.</p>
+        </div>
+    </section>
     <!--
     <div class="journey-teaser" style="text-align:center; margin: 18px 0 0;">
         <p><a href="journey.html">From SUNY New Paltz to Kostabi World to Moth &mdash; see the journey</a></p>
